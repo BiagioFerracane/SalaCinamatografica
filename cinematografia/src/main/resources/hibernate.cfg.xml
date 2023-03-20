@@ -8,6 +8,7 @@
         <mapping class="com.cinema.cinematografia.model.Film"></mapping>
         <mapping class="com.cinema.cinematografia.model.Biglietto"></mapping>
         <mapping class="com.cinema.cinematografia.model.Spettatore"></mapping>
+        <mapping class="com.cinema.cinematografia.model.Prenotazione"></mapping>
 
 
         <mapping class="com.cinema.cinematografia.model.SalaCinematografica"></mapping>
