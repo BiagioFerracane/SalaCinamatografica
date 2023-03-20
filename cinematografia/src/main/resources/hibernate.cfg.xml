@@ -1,0 +1,19 @@
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
+    <session-factory>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/cinematografia</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+        <mapping class="com.cinema.cinematografia.model.Film"></mapping>
+        <mapping class="com.cinema.cinematografia.model.Biglietto"></mapping>
+        <mapping class="com.cinema.cinematografia.model.Spettatore"></mapping>
+
+
+        <mapping class="com.cinema.cinematografia.model.SalaCinematografica"></mapping>
+        <mapping class="com.cinema.cinematografia.model.Cinema"></mapping>
+
+
+
+    </session-factory>
+</hibernate-configuration>
